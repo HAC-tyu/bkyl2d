@@ -105,7 +105,7 @@ function loadWidget(config) {
 			showMessage("你都复制了些什么呀，转载要记得加上出处哦！", 6000, 9);
 		});
 		window.addEventListener("visibilitychange", () => {
-			if (!document.hidden) showMessage(["哇，你终于回来了～","是想我了吗～"], 6000, 9);
+			if (!document.hidden) showMessage(["还知道回来哇","下次再出去就不准回来了！！！"], 6000, 9);
 		});
 	})();
  
