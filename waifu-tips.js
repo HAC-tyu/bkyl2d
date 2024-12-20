@@ -49,7 +49,7 @@ function loadWidget(config) {
 	let userAction = false,
 		userActionTimer,
 		messageTimer,
-		messageArray = ["长按鼠标后松开有惊喜哦~", "逝者如斯，不舍昼夜", "嗨～是在发呆吗", "如果觉得文章有用记得点个赞哦~"];
+		messageArray = ["继续吧少年", "在发呆吗", "不管你啦", "zzzzZZZZ~"];
 	window.addEventListener("mousemove", () => userAction = true);
 	window.addEventListener("keydown", () => userAction = true);
 	window.addEventListener("click", () => userAction = true);
@@ -111,7 +111,7 @@ function loadWidget(config) {
  
 	(function welcomeMessage() {
 		let text;
-		if (location.pathname === "/lrplrplrp/"||location.pathname === "/lrplrplrp") { // 如果是主页，可在浏览器后台输入location.pathname确定判断条件
+		if (location.pathname === "/@memory/"||location.pathname === "/@memory") { // 如果是主页，可在浏览器后台输入location.pathname确定判断条件
 			const now = new Date().getHours();
 			if (now > 5 && now <= 7) text = ["早上好！一日之计在于晨，美好的一天就要开始了。","早啊，叫醒你的是理想还是闹钟呢。"];
 			else if (now > 7 && now <= 11) text = "上午好！工作顺利嘛，不要久坐，多起来走动走动哦！";
